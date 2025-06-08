@@ -2,6 +2,10 @@
 
 This project implements **DETR (Detection Transformer)** for object detection on the **VisDrone2019** dataset. DETR is an end-to-end object detection model that uses Transformers to directly predict object bounding boxes and classes.
 
+![Detection Result](visualization_results/detection_result.png)
+
+*Sample detection result showing cars, people, and other objects with confidence scores*
+
 ## 🚁 About VisDrone Dataset
 
 VisDrone2019 is a large-scale benchmark for drone-based computer vision tasks, containing images captured by various drone platforms. The dataset includes 11 object categories commonly found in aerial imagery:
@@ -134,14 +138,6 @@ Our DETR model was trained for 100+ epochs on VisDrone with the following perfor
 - **Hidden Dimension**: 256
 - **Feed-forward Dimension**: 2048
 - **Attention Heads**: 8
-
-## 🖼️ Sample Results
-
-The model successfully detects various objects in drone imagery:
-
-![Detection Result](visualization_results/detection_result.png)
-
-*Sample detection result showing cars, people, and other objects with confidence scores*
 
 ## 📋 Usage Examples
 
