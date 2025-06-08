@@ -14,7 +14,6 @@ VisDrone/*.json
 
 # Training outputs and checkpoints
 outputs/
-visualization_results/
 *.pth
 *.pt
 
